@@ -19,3 +19,12 @@ import './gui_commands'
 
 // Como alternativa, você pode usar a sintaxe CommonJS:
 // require('./commands')
+// cypress/support/e2e.js
+
+// Comandos globais podem ser definidos aqui, por exemplo:
+beforeEach(() => {
+  // Limpar os cookies antes de cada teste
+  cy.clearCookies();
+});
+
+// Você também pode adicionar outros hooks ou comandos personalizados
