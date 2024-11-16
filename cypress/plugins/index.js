@@ -1,22 +1,22 @@
 /// <reference types="cypress" />
 // ***********************************************************
-// This example plugins/index.js can be used to load plugins
+// Este exemplo de plugins/index.js pode ser usado para carregar plugins
 //
-// You can change the location of this file or turn off loading
-// the plugins file with the 'pluginsFile' configuration option.
+// Você pode alterar a localização deste arquivo ou desativar o carregamento
+// do arquivo de plugins com a opção de configuração 'pluginsFile'.
 //
-// You can read more here:
+// Você pode ler mais aqui:
 // https://on.cypress.io/plugins-guide
 // ***********************************************************
 
-// This function is called when a project is opened or re-opened (e.g. due to
-// the project's config changing)
+// Esta função é chamada quando um projeto é aberto ou reaberto (por exemplo, devido
+// a uma alteração na configuração do projeto)
 
 /**
  * @type {Cypress.PluginConfig}
  */
 // eslint-disable-next-line no-unused-vars
 module.exports = (on, config) => {
-  // `on` is used to hook into various events Cypress emits
-  // `config` is the resolved Cypress config
+  // `on` é usado para conectar a diversos eventos emitidos pelo Cypress
+  // `config` é a configuração resolvida do Cypress
 }
