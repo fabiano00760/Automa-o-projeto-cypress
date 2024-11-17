@@ -1,4 +1,4 @@
-describe('loginPage', () => {
+describe('cadastro', () => {
     // Lista para armazenar os e-mails e senhas gerados
     let generatedCredentials = [];
 
