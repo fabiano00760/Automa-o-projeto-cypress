@@ -31,5 +31,17 @@ describe('login', () => {
         // Verificar se o login foi bem-sucedido
         // Aqui você pode ajustar para validar um elemento visível após o login
         cy.contains('Welcome, Fabiano Silva! ').should('be.visible'); // Exemplo de uma mensagem ou elemento que aparece após o login
+        // Clica no item "What's New"
+        cy.contains("Women").trigger('mouseover').click();
+
+        // Agora que o menu está visível, clica em "Tops"
+        cy.contains("Tops").click({ force: true });
+
+        cy.contains("Antonia Racer Tank").trigger('mouseover').click();
+        cy.contains("XS").click({ force: true });
+        cy.get("#option-label-color-93-item-49").click();
+        cy.contains("Add to Cart").click();
+
     });
+
 });
