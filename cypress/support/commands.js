@@ -26,3 +26,6 @@
 //
 // -- Isso irá sobrescrever um comando existente --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+// Importa o plugin cypress-xpath
+import 'cypress-xpath';
+
